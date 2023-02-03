@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML homework</title>
+</head>
+
+<body>
+    <h1>Planets</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan=5></th>
+
+                <th>Name</th>
+                <th>Mass (10 24)</th>
+                <th>Diameter (km)</th>
+            </tr>
+            <tr>
+                <th colspan="5" rowspan="4">Terrestrial Planets</th>
+                <th>Mercury</th>
+                <td>0.330</td>
+                <td>4,879</td>
+            <tr>
+                <th>Venus</th>
+                <td>4.87</td>
+                <td>12,104</td>
+            </tr>
+            <tr>
+                <th>Earth</th>
+                <td>5.97</td>
+                <td>12,756</td>
+            </tr>
+            <tr>
+                <th>Mars</th>
+                <td>0.642</td>
+                <td>6,792</td>
+            </tr>
+            <tr>
+                <th colspan="4" rowspan="4"> Jovian Planets</th>
+                <th rowspan="2">Gas giants</th>
+                <th>Jupiter</th>
+                <td>1898</td>
+                <td>142,984</td>
+            </tr>
+
+            </tr>
+            <th>Saturn</th>
+            <td>568</td>
+            <td>120,536</td>
+            <tr>
+                <th rowspan="2">Ice giants</th>
+                <th>Uranus</th>
+                <td>86.8</td>
+                <td>51,118</td>
+            <tr>
+                <th>Neptune</th>
+                <td>102</td>
+                <td>49,528</td>
+            </tr>
+            </tr>
+            <tr>
+                <th colspan="5">Dwarf planets</th>
+                <th>Pluto</th>
+                <td>0.0146</td>
+                <td>2,370</td>
+            </tr>
+
+
+        </thead>
+        <tbody>
+
+
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+
+    </table>
+    <p>Ask us about planets</p>
+    <fieldset>
+        <form>
+            <form action="http://127.0.0.1:5500/html%20homework/index.html" method="get">
+                <div>
+                    <label for="input-name">Nume:</label>
+                    <input type="text" id="input-name" name="Name" required />
+                </div>
+                <div>
+                    <label for="input-email">E-mail</label>
+                    <input type="email" id="input-email" name="e-mail" required />
+                </div>
+                <p>Favorite planet:</p>
+                <div>
+                    <input type="radio" id="radio1" name="radio-group" value="Mercury">
+                    <label for="radio1">Mercury</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Venus">
+                    <label for="radio1">Venus</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Earth" checked>
+                    <label for="radio1">Earth</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Mars">
+                    <label for="radio1">Mars</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Jupiter">
+                    <label for="radio1">Jupiter</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Saturn">
+                    <label for="radio1">Saturn</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Uranus">
+                    <label for="radio1">Uranus</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Neptune">
+                    <label for="radio1">Neptune</label>
+                    <div>
+
+                    </div>
+                    <input type="radio" id="radio1" name="radio-group" value="Pluto">
+                    <label for="radio1">Pluto</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox1" name="checkbox" required> I agree to the
+                    <label for="checkbox1"><a href="https://gogle.ro">terms and conditions</a></label>
+                </div>
+                <button type="reset">Reset</button>
+                <button type="submit">Ask away</button>
+
+
+
+
+
+            </form>
+    </fieldset>
+</body>
+
+</html>
